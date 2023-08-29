@@ -1,8 +1,8 @@
 ---
-title: 生产实习2
+title: 黑马生产实习2
 description: 
 published: true
-date: 2023-08-29T15:29:01.065Z
+date: 2023-08-29T15:29:51.695Z
 tags: java, json, 北京
 editor: markdown
 dateCreated: 2023-08-29T07:24:50.917Z
