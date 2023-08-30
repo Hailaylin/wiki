@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T08:42:23.589Z
+date: 2023-08-30T08:44:02.560Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -321,3 +321,7 @@ POJO 简单无规则对象
 **升学率**和**就业率**
 
 于是要学生不要**迷茫**。
+
+![](https://qiniu.oos.hailay.site/img/20230830164318.png)
+用做一个产品的思维顺一遍需要什么岗位。
+假设我租了一个办公室，要开公司，要什么人才能把产品卖出去？
