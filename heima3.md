@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T06:13:41.866Z
+date: 2023-08-30T06:18:58.830Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -206,7 +206,25 @@ sequenceDiagram
 
 # 统一返回结果
 
-> controller返回结果有ok和list，比较乱。
-{.is-warning}
+> controller返回结果有ok和list，比较乱。{.is-warning}
 
 > 无论什么结果都需要返回“OK”，查询操作要返回数据，代码执行错误需要返回发生了什么错误。{.is-info}
+
+统一返回结果，用一个Result类返回
+```
+三个成员变量
+- code int 类型 声明是否成功
+- data Object类型 返回的数据
+- msg String 返回失败的原因
+```
+代码为
+```java
+package site.hailay.common;
+
+public class Result {
+    private int code; // 返回是否成功，1为成功
+    private Object data; // 返回的数据
+    private String msg; // 返回信息
+}
+
+```
