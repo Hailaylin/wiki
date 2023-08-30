@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T02:09:02.609Z
+date: 2023-08-30T02:10:42.749Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -145,7 +145,7 @@ public class StudentServiceImpl implements StudentService {
 </mapper>
 ````
 
-### 效果
+## 实现效果
 http://localhost:9090/students
 
 #### 获取全部
