@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T06:08:50.445Z
+date: 2023-08-30T06:11:32.309Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -197,9 +197,11 @@ sequenceDiagram
 如遇到了问题，那时间是不够用的；如果没有遇到问题**一帆风顺**，那上课的时间就能把东西都完成，下课就可以做自己的事情。
 
 # 6. CRUD操作之更新、删除
-就把之前的按照模板写一下，用<key>
+就把之前的按照模板写一下，用<key>ctrl</key>+<key>c</key>
 
   
-# 7. 相同前缀
+### 相同前缀抽取
   
 @RequestMapping("student")
+
+#
