@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T02:06:45.934Z
+date: 2023-08-30T02:09:02.609Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -23,7 +23,22 @@ dateCreated: 2023-08-30T01:15:08.373Z
 项目目录结构：
 ![](https://qiniu.oos.hailay.site/img/20230830100123.png)
 
-site/hailay/controller/StudentController.java
+### site/hailay/Application.java
+```java
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}
+
+```
+
+### site/hailay/controller/StudentController.java
 ```java
 @RestController // 声明当前类可以接受请求和生成响应，并且生成类对象放入SpringIOC中
 public class StudentController {
@@ -49,7 +64,8 @@ public class StudentController {
 }
 
 ```
-site/hailay/mapper/StudentMapper.java
+
+### site/hailay/mapper/StudentMapper.java
 ```java
 @Mapper // 底层会创建该接口的代理对象，将其放入spring IOC 容器中
 public interface StudentMapper {
@@ -74,7 +90,7 @@ public interface StudentMapper {
     List<Student> findByCondition(String username, String num);
 }
 ```
-site/hailay/service/StudentService.java
+### site/hailay/service/StudentService.java
 ```java
 public interface StudentService {
     List<Student> findAll();
@@ -83,7 +99,7 @@ public interface StudentService {
 }
 
 ```
-site/hailay/service/impl/StudentServiceImpl.java
+### site/hailay/service/impl/StudentServiceImpl.java
 ```java
 @Service // 在项目启动的时候创建该类的对象，放入Spring IOC中
 public class StudentServiceImpl implements StudentService {
@@ -103,7 +119,8 @@ public class StudentServiceImpl implements StudentService {
     }
 }
 ```
-site/hailay/mapper/StudentMapper.xml
+
+### site/hailay/mapper/StudentMapper.xml
 ````xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper
