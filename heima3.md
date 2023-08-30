@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T08:24:53.227Z
+date: 2023-08-30T08:25:28.398Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -232,7 +232,7 @@ public class Result {
 
 ### 统一异常处理器
 
-# 苍穹外卖平台
+# 7 苍穹外卖平台
 java 培训5天 大数据5天
 
 nginx配置 `nginx.conf`
@@ -290,7 +290,7 @@ VO view Object 用于向用户显示数据
 PO Persistant Object 持久化对象，用来和数据库表交互
 POJO 简单无规则对象
 
-# 职业规划课
+# 8 职业规划课
 70% 校招都是销售哈哈哈
 ![](https://qiniu.oos.hailay.site/img/20230830162205.png)
 
