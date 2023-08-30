@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T08:29:46.799Z
+date: 2023-08-30T08:34:22.608Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -291,11 +291,20 @@ PO Persistant Object 持久化对象，用来和数据库表交互
 POJO 简单无规则对象
 
 # 8 职业规划课
+
+## 非本专业的钱景
 70% 校招都是销售哈哈哈
 ![](https://qiniu.oos.hailay.site/img/20230830162205.png)
 
 销售、地推、面销，房产中介（房地产行业已经不火了）（胃都有毛病哈哈哈）
 电话客服，心态脆弱不要干，情绪会多
 钢厂、电子厂、流水线（去流水线上什么大学哈哈哈哈）
-文职文员
+文职文员，行政前台、人事（HR招聘）
 
+## 本专业就业前景
+> 不是所有人都适合敲代码
+{.is-warning}
+
+
+## HR术语
+HC（Headcount）俗称人头
