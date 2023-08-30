@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T06:29:28.459Z
+date: 2023-08-30T07:14:21.167Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -231,3 +231,6 @@ public class Result {
 // 成功则设置一个Result对象并且code=1，然后设置data
 
 ### 统一异常处理器
+
+# 苍穹外卖平台
+java 培训5天 大数据5天
