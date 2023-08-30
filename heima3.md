@@ -2,13 +2,13 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T06:18:58.830Z
+date: 2023-08-30T06:20:02.497Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
 ---
 
-昨天特地安装了wiki.js
+昨天特地安装了wiki.js，就是为了记笔记和分享笔记方便一些。
 
 # 1 SpringBoot整合Mybatis完成表单CRUD 
 
