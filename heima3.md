@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T03:12:21.759Z
+date: 2023-08-30T03:13:02.074Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -19,12 +19,14 @@ dateCreated: 2023-08-30T01:15:08.373Z
 `` @GetMapping`` GET请求。同理其余请求。
 
 ``@RestController``
-## TAB {.tabset}
+
 
 ## 1.3 以访问Student数据为例的代码 
 
 项目目录结构：
 ![](https://qiniu.oos.hailay.site/img/20230830100123.png)
+
+## TAB {.tabset}
 
 ### site/hailay/Application.java
 ```java
