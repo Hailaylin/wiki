@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T06:20:02.497Z
+date: 2023-08-30T06:29:28.459Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -204,7 +204,7 @@ sequenceDiagram
   
 @RequestMapping("student")
 
-# 统一返回结果
+## 统一返回结果
 
 > controller返回结果有ok和list，比较乱。{.is-warning}
 
@@ -228,3 +228,6 @@ public class Result {
 }
 
 ```
+// 成功则设置一个Result对象并且code=1，然后设置data
+
+### 统一异常处理器
