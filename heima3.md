@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T08:27:21.859Z
+date: 2023-08-30T08:27:39.813Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -295,4 +295,5 @@ POJO 简单无规则对象
 ![](https://qiniu.oos.hailay.site/img/20230830162205.png)
 
 销售、地推、面销，房产中介（房地产行业已经不火了）（胃都有毛病哈哈哈）
+电话客服，心态脆弱不要干，情绪会多
 
