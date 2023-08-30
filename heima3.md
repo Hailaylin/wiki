@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T03:13:02.074Z
+date: 2023-08-30T03:14:28.090Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -167,14 +167,14 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 总结了SpringBoot要写Web的一些结构。
 
-## 2. 计算机行业的发展方向
+# 2. 计算机行业的发展方向
 导员在群里发了张图。
 ![](https://qiniu.oos.hailay.site/img/a37a3552a6af7b33581a1699fa58c7c4.png)
 都得细分去了解，这只是个大概的分类。
 
 然后系主任说这次实训分两个方向，**java**和**大数据**方向。但是现在就教了一个java方向吧。
 
-## 3. wiki.js
+# 3. wiki.js
 定制的Markdown语法 https://docs.requarks.io/en/editors/markdown
 还可以画时序图
 ```mermaid
