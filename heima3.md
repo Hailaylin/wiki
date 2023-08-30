@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T07:28:10.843Z
+date: 2023-08-30T07:51:53.065Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -283,3 +283,9 @@ nginx配置 `nginx.conf`
 			proxy_set_header Connection "$connection_upgrade";
         }
 ```
+
+## DTO VO PO
+DTO Data transfer 数据传输对象，用户请求数据
+VO view Object 用于向用户显示数据
+PO Persistant Object 持久化对象，用来和数据库表交互
+POJO 简单无规则对象
