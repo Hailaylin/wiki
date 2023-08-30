@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T03:25:37.779Z
+date: 2023-08-30T06:08:36.863Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -191,3 +191,15 @@ sequenceDiagram
 # 4. CRUD操作之模拟post
 - 使用调试加断点看数据是否进入
 - 使用浏览器插件`Talend API Tester`
+- 构造`json`数据使用`post`请求访问，返回`200`就是成功。
+
+# 5. 个人感受
+如遇到了问题，那时间是不够用的；如果没有遇到问题**一帆风顺**，那上课的时间就能把东西都完成，下课就可以做自己的事情。
+
+# 6. CRUD操作之更新、删除
+就把之前的按照模板写一下，用<key>
+
+  
+# 相同前缀
+  
+@RequestMapping("student")
