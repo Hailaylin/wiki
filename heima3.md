@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T07:51:53.065Z
+date: 2023-08-30T08:23:14.368Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -289,3 +289,7 @@ DTO Data transfer 数据传输对象，用户请求数据
 VO view Object 用于向用户显示数据
 PO Persistant Object 持久化对象，用来和数据库表交互
 POJO 简单无规则对象
+
+# 职业规划课
+70% 校招都是销售哈哈哈
+![](https://qiniu.oos.hailay.site/img/20230830162205.png)
