@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T02:32:58.413Z
+date: 2023-08-30T03:12:21.759Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -10,7 +10,7 @@ dateCreated: 2023-08-30T01:15:08.373Z
 
 昨天特地安装了wiki.js
 
-# 1 SpringBoot整合Mybatis完成表单CRUD
+# 1 SpringBoot整合Mybatis完成表单CRUD 
 
 ## 1.1 REST风格
 强调以资源为中心，在URL中部出现动词；通过post、put、get、delete请求来区分是保存、修改、查询、删除操作。
@@ -19,7 +19,10 @@ dateCreated: 2023-08-30T01:15:08.373Z
 `` @GetMapping`` GET请求。同理其余请求。
 
 ``@RestController``
-## 1.3 以访问Student数据为例的代码
+## TAB {.tabset}
+
+## 1.3 以访问Student数据为例的代码 
+
 项目目录结构：
 ![](https://qiniu.oos.hailay.site/img/20230830100123.png)
 
@@ -166,3 +169,22 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 导员在群里发了张图。
 ![](https://qiniu.oos.hailay.site/img/a37a3552a6af7b33581a1699fa58c7c4.png)
 都得细分去了解，这只是个大概的分类。
+
+然后系主任说这次实训分两个方向，**java**和**大数据**方向。但是现在就教了一个java方向吧。
+
+## 3. wiki.js
+定制的Markdown语法 https://docs.requarks.io/en/editors/markdown
+还可以画时序图
+```mermaid
+sequenceDiagram
+    Alice ->> Bob: Hello Bob, how are you?
+    Bob-->>John: How about you John?
+    Bob--x Alice: I am good thanks!
+    Bob-x John: I am good thanks!
+    Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+    Bob-->Alice: Checking with John...
+    Alice->John: Yes... John, how are you?
+```
+# 4. CRUD操作之模拟post
+- 使用调试加断点看数据是否进入
