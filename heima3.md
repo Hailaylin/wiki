@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T03:14:28.090Z
+date: 2023-08-30T03:25:37.779Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -190,3 +190,4 @@ sequenceDiagram
 ```
 # 4. CRUD操作之模拟post
 - 使用调试加断点看数据是否进入
+- 使用浏览器插件`Talend API Tester`
