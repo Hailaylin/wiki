@@ -2,7 +2,7 @@
 title: 黑马顺义校区Java生产实训 day3 笔记
 description: 
 published: true
-date: 2023-08-30T08:44:02.560Z
+date: 2023-08-30T08:53:16.437Z
 tags: 北京, 黑马
 editor: markdown
 dateCreated: 2023-08-30T01:15:08.373Z
@@ -322,6 +322,9 @@ POJO 简单无规则对象
 
 于是要学生不要**迷茫**。
 
+## 岗位
 ![](https://qiniu.oos.hailay.site/img/20230830164318.png)
 用做一个产品的思维顺一遍需要什么岗位。
 假设我租了一个办公室，要开公司，要什么人才能把产品卖出去？
+
+产品经理、运维（外包）7000（黑马）、后端、前端
